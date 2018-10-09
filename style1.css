@@ -133,7 +133,7 @@ section#box-profil{
 	margin-bottom: 14px;
 }
 .description p{
-	color: #859ec6;
+	color: #fff;
 }
 .description .button{
 	margin-top: 40px;
@@ -141,10 +141,10 @@ section#box-profil{
 .information{
 	position: relative;
 	display: inline-block;
-	float: left;
+	float: right;
 	font-family: 'Helvetica', sans-serif;
-	top: 45px;
-	margin-left: 45px;
+	top: -110px;
+	margin-right: 45px;
 }
 .information .data{
 	display: block;
@@ -185,6 +185,16 @@ label{
 	font-weight: 600;
 }
 input{
+	font-family: 'Helvetica', sans-serif;
+	padding: 10px 20px 10px 20px;
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid #8888;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+select{
 	font-family: 'Helvetica', sans-serif;
 	padding: 10px 20px 10px 20px;
 	outline: none;

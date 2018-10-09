@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Profil Page</title>
-	<meta name="viewport" content="width=device-width'
-	initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style1.css">
 </head>
 <body>
@@ -23,7 +22,7 @@
 	<section id="box-profil">
 		<div class="img-profil">
 			<div class="photo" style="background-image:
-			url(assets/img/profil.jpg)"></div>>
+			url(assets/img/profil.jpg)"></div>
 		</div>
 		<div class="description">
 			<h1>Wulan Aprianingsih</h1>
@@ -31,7 +30,7 @@
 			<a href="#" class="button bg-green">Contact</a>
 			<a href="#" class="button bg-blue">Resume</a>
 		</div>
-		<div class="Information">
+		<div class="information">
 			<div class="data">
 				<p class="field">Availability</p>
 				<p class="text-gray">Full Time</p>
@@ -61,6 +60,16 @@
 			<label>Nama</label>
 			<input type="text" name="name">
 		</div>
+		<div class="form">
+			<label>Region</label>
+			<select>
+				<option>Islam</option>
+				<option>Kristen</option>
+				<option>Katholik</option>
+				<option>Hindu</option>
+				<option>Budha</option>
+			</select>
+		</div>
 		<div class = "form">
 			<label>Role</label>
 			<input type="text" name="role">
@@ -75,7 +84,12 @@
 		</div>
 		<div class = "form">
 			<label>Location</label>
-			<input type="text" name="location">
+			<textarea></textarea>
+			<select>
+				<option>Jakarta</option>
+				<option>Bandung</option>
+				<option>Jogjakarta</option>
+			</select>
 		</div>
 		<div class = "form">
 			<label>Years Experience</label>
@@ -86,9 +100,15 @@
 			<input type="email" name="email">
 		</div>
 		<div class = "form">
+			<label>Display Picture</label>
+			<input type="file" name="Picture">
+		</div>
+		<div class = "form">
 			<input type="submit" name="submit"
 			value="SUBMIT" class="bg-blue">
 		</div>
+	
+
 		</form>
 	</section>
 </body>
